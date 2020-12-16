@@ -1,0 +1,1000 @@
+16.12.20 01:37:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:37:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:37:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:37:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 876147a4-3f71-11eb-a558-0242ac110004 56020
+16.12.20 01:37:20 (-0600) <telegraf> 2020-12-16T07:37:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:37:20 (-0600) <telegraf> 2020-12-16T07:37:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:37:21 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:37:23 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:37:28 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:37:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:37:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 8d571e2f-3f71-11eb-a559-0242ac110004 83258
+16.12.20 01:37:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:37:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:37:30 (-0600) <telegraf> 2020-12-16T07:37:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:37:30 (-0600) <telegraf> 2020-12-16T07:37:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:37:30 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:37:35 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:37:37 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:37:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:37:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 934db809-3f71-11eb-a55a-0242ac110004 131672
+16.12.20 01:37:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:37:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:37:40 (-0600) <telegraf> 2020-12-16T07:37:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:37:40 (-0600) <telegraf> 2020-12-16T07:37:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:37:42 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:37:44 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:37:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:37:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 99431e0a-3f71-11eb-a55b-0242ac110004 107835
+16.12.20 01:37:49 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:37:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:37:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:37:50 (-0600) <telegraf> 2020-12-16T07:37:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:37:50 (-0600) <telegraf> 2020-12-16T07:37:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:37:51 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:37:56 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:37:58 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:38:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:38:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 9f38b859-3f71-11eb-a55c-0242ac110004 73462
+16.12.20 01:38:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:38:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:38:00 (-0600) <telegraf> 2020-12-16T07:38:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:38:00 (-0600) <telegraf> 2020-12-16T07:38:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:38:04 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:38:06 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:38:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:38:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" a52eaa78-3f71-11eb-a55d-0242ac110004 104100
+16.12.20 01:38:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:38:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:38:10 (-0600) <telegraf> 2020-12-16T07:38:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:38:10 (-0600) <telegraf> 2020-12-16T07:38:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:38:11 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:38:13 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:38:18 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:38:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:38:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:38:20 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:38:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:38:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" ab247c03-3f71-11eb-a55e-0242ac110004 77166
+16.12.20 01:38:20 (-0600) <telegraf> 2020-12-16T07:38:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:38:20 (-0600) <telegraf> 2020-12-16T07:38:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:38:25 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:38:27 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:38:28 (-0600) <influxdb> 2020-12-16T07:38:28.325592Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:28 (-0600) <influxdb> 2020-12-16T07:38:28.358875Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:28 (-0600) <influxdb> 2020-12-16T07:38:28.436549Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:28 (-0600) <influxdb> 2020-12-16T07:38:28.461539Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:29 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:28 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 10057 "-" "Grafana/7.0.5" b019156e-3f71-11eb-a55f-0242ac110004 1444939
+16.12.20 01:38:29 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:28 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11452 "-" "Grafana/7.0.5" b01d4d07-3f71-11eb-a560-0242ac110004 1474369
+16.12.20 01:38:29 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:28 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11062 "-" "Grafana/7.0.5" b029d390-3f71-11eb-a561-0242ac110004 1449146
+16.12.20 01:38:29 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:28 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11238 "-" "Grafana/7.0.5" b02d936f-3f71-11eb-a562-0242ac110004 1381012
+16.12.20 01:38:30 (-0600) <influxdb> 2020-12-16T07:38:29.988862Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:30 (-0600) <influxdb> 2020-12-16T07:38:30.100855Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:38:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" b11af2ca-3f71-11eb-a564-0242ac110004 94000
+16.12.20 01:38:30 (-0600) <influxdb> 2020-12-16T07:38:30.186874Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:38:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:38:30 (-0600) <telegraf> 2020-12-16T07:38:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:38:30 (-0600) <telegraf> 2020-12-16T07:38:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:38:31 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:29 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11454 "-" "Grafana/7.0.5" b116e593-3f71-11eb-a563-0242ac110004 1539064
+16.12.20 01:38:31 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:30 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 10059 "-" "Grafana/7.0.5" b131831a-3f71-11eb-a566-0242ac110004 1380738
+16.12.20 01:38:31 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:30 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11064 "-" "Grafana/7.0.5" b12543fa-3f71-11eb-a565-0242ac110004 1474967
+16.12.20 01:38:32 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:38:34 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:38:39 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:38:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:38:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:38:40 (-0600) <telegraf> 2020-12-16T07:38:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:38:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:38:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" b710415b-3f71-11eb-a567-0242ac110004 92038
+16.12.20 01:38:40 (-0600) <telegraf> 2020-12-16T07:38:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:38:41 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:38:42 (-0600) <influxdb> 2020-12-16T07:38:42.203338Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:42 (-0600) <influxdb> 2020-12-16T07:38:42.368216Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:42 (-0600) <influxdb> 2020-12-16T07:38:42.569034Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:42 (-0600) <influxdb> 2020-12-16T07:38:42.609052Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:44 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:42 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 10062 "-" "Grafana/7.0.5" b85cd9dd-3f71-11eb-a568-0242ac110004 2117944
+16.12.20 01:38:44 (-0600) <influxdb> 2020-12-16T07:38:44.496911Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:44 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:42 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11243 "-" "Grafana/7.0.5" b876dc6f-3f71-11eb-a569-0242ac110004 2181614
+16.12.20 01:38:44 (-0600) <influxdb> 2020-12-16T07:38:44.870446Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:44 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:42 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11066 "-" "Grafana/7.0.5" b8959ee4-3f71-11eb-a56a-0242ac110004 2400195
+16.12.20 01:38:45 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:42 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11456 "-" "Grafana/7.0.5" b899c45d-3f71-11eb-a56b-0242ac110004 2512194
+16.12.20 01:38:45 (-0600) <influxdb> 2020-12-16T07:38:45.233677Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:45 (-0600) <influxdb> 2020-12-16T07:38:45.296349Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:46 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:38:47 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:44 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 10062 "-" "Grafana/7.0.5" b9ba7f22-3f71-11eb-a56c-0242ac110004 2615610
+16.12.20 01:38:47 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:44 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11243 "-" "Grafana/7.0.5" b9f56789-3f71-11eb-a56d-0242ac110004 2245142
+16.12.20 01:38:47 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:45 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11456 "-" "Grafana/7.0.5" ba36287d-3f71-11eb-a56f-0242ac110004 2029293
+16.12.20 01:38:47 (-0600) <influxdb> 2020-12-16T07:38:47.373666Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:47 (-0600) <influxdb> 2020-12-16T07:38:47.421959Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:47 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:45 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11066 "-" "Grafana/7.0.5" ba2ca227-3f71-11eb-a56e-0242ac110004 2215855
+16.12.20 01:38:47 (-0600) <influxdb> 2020-12-16T07:38:47.586671Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:47 (-0600) <influxdb> 2020-12-16T07:38:47.661007Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:48 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:38:48 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:47 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11243 "-" "Grafana/7.0.5" bb7334f4-3f71-11eb-a570-0242ac110004 1117838
+16.12.20 01:38:48 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:47 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 10062 "-" "Grafana/7.0.5" bb79731b-3f71-11eb-a571-0242ac110004 1247544
+16.12.20 01:38:48 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:47 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11456 "-" "Grafana/7.0.5" bb93ec30-3f71-11eb-a572-0242ac110004 1262225
+16.12.20 01:38:48 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:47 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11066 "-" "Grafana/7.0.5" bb9e9101-3f71-11eb-a573-0242ac110004 1253683
+16.12.20 01:38:48 (-0600) <influxdb> 2020-12-16T07:38:48.979010Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:49 (-0600) <influxdb> 2020-12-16T07:38:49.031858Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:49 (-0600) <influxdb> 2020-12-16T07:38:49.100079Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 1d"}
+16.12.20 01:38:49 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:49 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11456 "-" "Grafana/7.0.5" bc703b75-3f71-11eb-a575-0242ac110004 970629
+16.12.20 01:38:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:38:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" bd120f81-3f71-11eb-a577-0242ac110004 48467
+16.12.20 01:38:50 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:48 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 10062 "-" "Grafana/7.0.5" bc675f33-3f71-11eb-a574-0242ac110004 1170047
+16.12.20 01:38:50 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:49 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+24h HTTP/1.1" 200 11066 "-" "Grafana/7.0.5" bc7a1a6d-3f71-11eb-a576-0242ac110004 1116084
+16.12.20 01:38:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:38:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:38:50 (-0600) <telegraf> 2020-12-16T07:38:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:38:50 (-0600) <telegraf> 2020-12-16T07:38:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:38:53 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:38:55 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:38:55 (-0600) <influxdb> 2020-12-16T07:38:55.739150Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:38:55 (-0600) <influxdb> 2020-12-16T07:38:55.864384Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:38:56 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:55 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5175 "-" "Grafana/7.0.5" c07011b4-3f71-11eb-a578-0242ac110004 339331
+16.12.20 01:38:56 (-0600) <influxdb> 2020-12-16T07:38:56.278087Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:38:56 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:55 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5623 "-" "Grafana/7.0.5" c0825099-3f71-11eb-a579-0242ac110004 490855
+16.12.20 01:38:56 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:56 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5175 "-" "Grafana/7.0.5" c0c1ea29-3f71-11eb-a57a-0242ac110004 263424
+16.12.20 01:38:56 (-0600) <influxdb> 2020-12-16T07:38:56.554493Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:38:56 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:56 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5623 "-" "Grafana/7.0.5" c0ebc555-3f71-11eb-a57b-0242ac110004 184654
+16.12.20 01:38:59 (-0600) <influxdb> 2020-12-16T07:38:59.745161Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:38:59 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:38:59 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5513 "-" "Grafana/7.0.5" c2d2d127-3f71-11eb-a57c-0242ac110004 168620
+16.12.20 01:39:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:39:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" c2fcb2ed-3f71-11eb-a57d-0242ac110004 76913
+16.12.20 01:39:00 (-0600) <influxdb> 2020-12-16T07:39:00.188717Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:39:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:39:00 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:39:00 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:00 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5515 "-" "Grafana/7.0.5" c316a2ab-3f71-11eb-a57e-0242ac110004 414295
+16.12.20 01:39:00 (-0600) <influxdb> 2020-12-16T07:39:00.635604Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:00 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:00 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5185 "-" "Grafana/7.0.5" c359be9f-3f71-11eb-a57f-0242ac110004 210435
+16.12.20 01:39:00 (-0600) <telegraf> 2020-12-16T07:39:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:39:00 (-0600) <telegraf> 2020-12-16T07:39:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:39:00 (-0600) <influxdb> 2020-12-16T07:39:00.976872Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:01 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:00 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5185 "-" "Grafana/7.0.5" c38ea27e-3f71-11eb-a580-0242ac110004 181843
+16.12.20 01:39:02 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:39:05 (-0600) <influxdb> 2020-12-16T07:39:05.544827Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:05 (-0600) <influxdb> 2020-12-16T07:39:05.630740Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:05 (-0600) <influxdb> 2020-12-16T07:39:05.689193Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:05 (-0600) <influxdb> 2020-12-16T07:39:05.730884Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:06 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:05 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5185 "-" "Grafana/7.0.5" c6484aad-3f71-11eb-a581-0242ac110004 669098
+16.12.20 01:39:06 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:05 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5625 "-" "Grafana/7.0.5" c653e5be-3f71-11eb-a582-0242ac110004 665238
+16.12.20 01:39:06 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:05 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5515 "-" "Grafana/7.0.5" c65de040-3f71-11eb-a583-0242ac110004 618437
+16.12.20 01:39:06 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:05 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5177 "-" "Grafana/7.0.5" c6645d2c-3f71-11eb-a584-0242ac110004 629345
+16.12.20 01:39:06 (-0600) <influxdb> 2020-12-16T07:39:06.396203Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:06 (-0600) <influxdb> 2020-12-16T07:39:06.422034Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:06 (-0600) <influxdb> 2020-12-16T07:39:06.484275Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:06 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:06 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5185 "-" "Grafana/7.0.5" c6c6de0b-3f71-11eb-a585-0242ac110004 484304
+16.12.20 01:39:06 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:06 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5625 "-" "Grafana/7.0.5" c6c9ab25-3f71-11eb-a586-0242ac110004 584289
+16.12.20 01:39:06 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:06 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5515 "-" "Grafana/7.0.5" c6d748ef-3f71-11eb-a587-0242ac110004 517956
+16.12.20 01:39:07 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:39:09 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:39:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:39:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" c8f15509-3f71-11eb-a588-0242ac110004 28225
+16.12.20 01:39:10 (-0600) <telegraf> 2020-12-16T07:39:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:39:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:39:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:39:10 (-0600) <telegraf> 2020-12-16T07:39:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:39:14 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:39:15 (-0600) <influxdb> 2020-12-16T07:39:15.655748Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:15 (-0600) <influxdb> 2020-12-16T07:39:15.705933Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:15 (-0600) <influxdb> 2020-12-16T07:39:15.783611Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:15 (-0600) <influxdb> 2020-12-16T07:39:15.844685Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:16 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:15 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5627 "-" "Grafana/7.0.5" cc51d1ea-3f71-11eb-a58a-0242ac110004 807274
+16.12.20 01:39:16 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:15 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5517 "-" "Grafana/7.0.5" cc4f190c-3f71-11eb-a589-0242ac110004 892362
+16.12.20 01:39:16 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:15 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5180 "-" "Grafana/7.0.5" cc6b85da-3f71-11eb-a58c-0242ac110004 783915
+16.12.20 01:39:16 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:15 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5187 "-" "Grafana/7.0.5" cc62485e-3f71-11eb-a58b-0242ac110004 870975
+16.12.20 01:39:16 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:39:16 (-0600) <influxdb> 2020-12-16T07:39:16.715506Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:16 (-0600) <influxdb> 2020-12-16T07:39:16.898024Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:17 (-0600) <influxdb> 2020-12-16T07:39:17.082802Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:17 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:16 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5627 "-" "Grafana/7.0.5" ccf0ceb3-3f71-11eb-a58d-0242ac110004 570024
+16.12.20 01:39:17 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:16 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5517 "-" "Grafana/7.0.5" cd0c4268-3f71-11eb-a58e-0242ac110004 580301
+16.12.20 01:39:17 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:17 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5187 "-" "Grafana/7.0.5" cd28219d-3f71-11eb-a58f-0242ac110004 430539
+16.12.20 01:39:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:39:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:39:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:39:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" cee86481-3f71-11eb-a590-0242ac110004 91436
+16.12.20 01:39:20 (-0600) <telegraf> 2020-12-16T07:39:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:39:20 (-0600) <telegraf> 2020-12-16T07:39:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:39:21 (-0600) <sensor> /data/sensor/bsec_iaq.state empty
+16.12.20 01:39:25 (-0600) <influxdb> 2020-12-16T07:39:25.688524Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:25 (-0600) <influxdb> 2020-12-16T07:39:25.787728Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:26 (-0600) <influxdb> 2020-12-16T07:39:26.002236Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:26 (-0600) <influxdb> 2020-12-16T07:39:26.094516Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:26 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:25 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5183 "-" "Grafana/7.0.5" d249f958-3f71-11eb-a591-0242ac110004 726193
+16.12.20 01:39:26 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:25 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5629 "-" "Grafana/7.0.5" d258c0e6-3f71-11eb-a592-0242ac110004 966736
+16.12.20 01:39:26 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:25 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5189 "-" "Grafana/7.0.5" d2786f23-3f71-11eb-a593-0242ac110004 839226
+16.12.20 01:39:26 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:26 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5519 "-" "Grafana/7.0.5" d286ad14-3f71-11eb-a594-0242ac110004 787226
+16.12.20 01:39:26 (-0600) <influxdb> 2020-12-16T07:39:26.947000Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:27 (-0600) <influxdb> 2020-12-16T07:39:26.998098Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:27 (-0600) <influxdb> 2020-12-16T07:39:27.063021Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:27 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:26 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5189 "-" "Grafana/7.0.5" d308e5c1-3f71-11eb-a595-0242ac110004 512010
+16.12.20 01:39:27 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:27 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5519 "-" "Grafana/7.0.5" d316ae51-3f71-11eb-a597-0242ac110004 494220
+16.12.20 01:39:27 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:26 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5629 "-" "Grafana/7.0.5" d311134a-3f71-11eb-a596-0242ac110004 576663
+16.12.20 01:39:28 (-0600) <influxdb> 2020-12-16T07:39:28.028951Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:28 (-0600) <influxdb> 2020-12-16T07:39:28.132131Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:28 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:28 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5183 "-" "Grafana/7.0.5" d3ac06c4-3f71-11eb-a598-0242ac110004 786977
+16.12.20 01:39:28 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:28 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5629 "-" "Grafana/7.0.5" d3bd76c9-3f71-11eb-a599-0242ac110004 852492
+16.12.20 01:39:29 (-0600) <influxdb> 2020-12-16T07:39:28.999035Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:29 (-0600) <influxdb> 2020-12-16T07:39:29.166761Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:29 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:28 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5183 "-" "Grafana/7.0.5" d4402190-3f71-11eb-a59a-0242ac110004 715953
+16.12.20 01:39:29 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:29 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5629 "-" "Grafana/7.0.5" d45c402a-3f71-11eb-a59b-0242ac110004 559792
+16.12.20 01:39:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:39:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" d4def983-3f71-11eb-a59c-0242ac110004 63055
+16.12.20 01:39:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:39:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:39:30 (-0600) <telegraf> 2020-12-16T07:39:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:39:30 (-0600) <telegraf> 2020-12-16T07:39:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:39:36 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:39:38 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:39:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:39:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:39:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:39:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" dad3fa13-3f71-11eb-a59d-0242ac110004 19931
+16.12.20 01:39:40 (-0600) <influxdb> 2020-12-16T07:39:40.280152Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:40 (-0600) <telegraf> 2020-12-16T07:39:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:39:40 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:40 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5188 "-" "Grafana/7.0.5" dafc8316-3f71-11eb-a59e-0242ac110004 256471
+16.12.20 01:39:40 (-0600) <influxdb> 2020-12-16T07:39:40.586370Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:40 (-0600) <influxdb> 2020-12-16T07:39:40.842771Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:40 (-0600) <telegraf> 2020-12-16T07:39:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:39:41 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:40 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5635 "-" "Grafana/7.0.5" db297c4c-3f71-11eb-a59f-0242ac110004 524489
+16.12.20 01:39:41 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:40 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5188 "-" "Grafana/7.0.5" db514fb5-3f71-11eb-a5a0-0242ac110004 494803
+16.12.20 01:39:41 (-0600) <influxdb> 2020-12-16T07:39:41.467142Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:42 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:41 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5635 "-" "Grafana/7.0.5" dbb0d7c4-3f71-11eb-a5a1-0242ac110004 550273
+16.12.20 01:39:43 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:39:45 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:39:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:39:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" e0c96096-3f71-11eb-a5a2-0242ac110004 71671
+16.12.20 01:39:50 (-0600) <influxdb> 2020-12-16T07:39:50.226003Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:50 (-0600) <influxdb> 2020-12-16T07:39:50.272643Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:39:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:39:50 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:39:50 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:50 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5639 "-" "Grafana/7.0.5" e0e94f6e-3f71-11eb-a5a3-0242ac110004 527811
+16.12.20 01:39:50 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:50 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5191 "-" "Grafana/7.0.5" e0efefdc-3f71-11eb-a5a4-0242ac110004 522001
+16.12.20 01:39:50 (-0600) <telegraf> 2020-12-16T07:39:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:39:50 (-0600) <telegraf> 2020-12-16T07:39:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:39:51 (-0600) <influxdb> 2020-12-16T07:39:51.005999Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:51 (-0600) <influxdb> 2020-12-16T07:39:51.185765Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:51 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:50 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5639 "-" "Grafana/7.0.5" e16091d8-3f71-11eb-a5a5-0242ac110004 228907
+16.12.20 01:39:51 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:51 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5191 "-" "Grafana/7.0.5" e17c5619-3f71-11eb-a5a6-0242ac110004 209628
+16.12.20 01:39:52 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:39:57 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:39:59 (-0600) <influxdb> 2020-12-16T07:39:59.899930Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:39:59 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:40:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:40:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" e6c4e27c-3f71-11eb-a5a8-0242ac110004 49383
+16.12.20 01:40:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:40:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:40:00 (-0600) <influxdb> 2020-12-16T07:40:00.221944Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:00 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:39:59 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5191 "-" "Grafana/7.0.5" e6ae36b6-3f71-11eb-a5a7-0242ac110004 776005
+16.12.20 01:40:00 (-0600) <influxdb> 2020-12-16T07:40:00.848174Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:00 (-0600) <telegraf> 2020-12-16T07:40:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:40:00 (-0600) <telegraf> 2020-12-16T07:40:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:40:01 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:00 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5644 "-" "Grafana/7.0.5" e6dec560-3f71-11eb-a5a9-0242ac110004 827482
+16.12.20 01:40:01 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:00 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5192 "-" "Grafana/7.0.5" e73e84d2-3f71-11eb-a5aa-0242ac110004 392909
+16.12.20 01:40:01 (-0600) <influxdb> 2020-12-16T07:40:01.807359Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:02 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:01 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5644 "-" "Grafana/7.0.5" e7d14929-3f71-11eb-a5ab-0242ac110004 352857
+16.12.20 01:40:04 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:40:06 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:40:10 (-0600) <influxdb> 2020-12-16T07:40:10.032491Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:10 (-0600) <influxdb> 2020-12-16T07:40:10.137784Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:40:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:40:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:40:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" ecbbd84a-3f71-11eb-a5ad-0242ac110004 209871
+16.12.20 01:40:11 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:10 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5192 "-" "Grafana/7.0.5" ecb6bc23-3f71-11eb-a5ac-0242ac110004 1044971
+16.12.20 01:40:11 (-0600) <influxdb> 2020-12-16T07:40:11.257137Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:11 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:10 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5649 "-" "Grafana/7.0.5" ecc7e452-3f71-11eb-a5ae-0242ac110004 1145454
+16.12.20 01:40:11 (-0600) <telegraf> 2020-12-16T07:40:11Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:40:11 (-0600) <telegraf> 2020-12-16T07:40:11Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:40:11 (-0600) <influxdb> 2020-12-16T07:40:11.412535Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:11 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:40:11 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:11 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5196 "-" "Grafana/7.0.5" ed72658f-3f71-11eb-a5af-0242ac110004 605877
+16.12.20 01:40:12 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:11 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5649 "-" "Grafana/7.0.5" ed8a9150-3f71-11eb-a5b0-0242ac110004 600480
+16.12.20 01:40:13 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:40:18 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:40:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:40:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:40:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:40:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" f2ab0543-3f71-11eb-a5b1-0242ac110004 33393
+16.12.20 01:40:20 (-0600) <influxdb> 2020-12-16T07:40:20.254883Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:20 (-0600) <influxdb> 2020-12-16T07:40:20.347053Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:20 (-0600) <telegraf> 2020-12-16T07:40:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:40:20 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:20 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5200 "-" "Grafana/7.0.5" f2cfce20-3f71-11eb-a5b2-0242ac110004 485926
+16.12.20 01:40:20 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:20 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5652 "-" "Grafana/7.0.5" f2dd313e-3f71-11eb-a5b3-0242ac110004 447872
+16.12.20 01:40:20 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:40:20 (-0600) <telegraf> 2020-12-16T07:40:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:40:21 (-0600) <influxdb> 2020-12-16T07:40:21.115881Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:21 (-0600) <influxdb> 2020-12-16T07:40:21.152064Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:21 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:21 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5200 "-" "Grafana/7.0.5" f3522329-3f71-11eb-a5b4-0242ac110004 296811
+16.12.20 01:40:21 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:21 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5652 "-" "Grafana/7.0.5" f3583bf8-3f71-11eb-a5b5-0242ac110004 339932
+16.12.20 01:40:25 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:40:27 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:40:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:40:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:40:30 (-0600) <telegraf> 2020-12-16T07:40:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:40:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:40:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" f8a0e16e-3f71-11eb-a5b6-0242ac110004 124933
+16.12.20 01:40:30 (-0600) <telegraf> 2020-12-16T07:40:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:40:31 (-0600) <influxdb> 2020-12-16T07:40:31.051714Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:31 (-0600) <influxdb> 2020-12-16T07:40:31.036865Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:31 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:31 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5203 "-" "Grafana/7.0.5" f93c7979-3f71-11eb-a5b7-0242ac110004 301778
+16.12.20 01:40:31 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:31 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5654 "-" "Grafana/7.0.5" f93eae46-3f71-11eb-a5b8-0242ac110004 354086
+16.12.20 01:40:31 (-0600) <influxdb> 2020-12-16T07:40:31.690010Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:31 (-0600) <influxdb> 2020-12-16T07:40:31.738811Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:32 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:31 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5203 "-" "Grafana/7.0.5" f9a794b5-3f71-11eb-a5ba-0242ac110004 352567
+16.12.20 01:40:32 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:31 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5654 "-" "Grafana/7.0.5" f9a0d5ed-3f71-11eb-a5b9-0242ac110004 411505
+16.12.20 01:40:32 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:40:34 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:40:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:40:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" fe96dd79-3f71-11eb-a5bb-0242ac110004 57078
+16.12.20 01:40:39 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:40:40 (-0600) <influxdb> 2020-12-16T07:40:40.334874Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:40:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:40:40 (-0600) <influxdb> 2020-12-16T07:40:40.537803Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:40 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:40 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5206 "-" "Grafana/7.0.5" fec80b6e-3f71-11eb-a5bc-0242ac110004 277671
+16.12.20 01:40:40 (-0600) <telegraf> 2020-12-16T07:40:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:40:40 (-0600) <telegraf> 2020-12-16T07:40:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:40:40 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:40 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5656 "-" "Grafana/7.0.5" fee5ce08-3f71-11eb-a5bd-0242ac110004 262203
+16.12.20 01:40:40 (-0600) <influxdb> 2020-12-16T07:40:40.917156Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:41 (-0600) <influxdb> 2020-12-16T07:40:41.017157Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:41 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:40 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5206 "-" "Grafana/7.0.5" ff2056bc-3f71-11eb-a5be-0242ac110004 263244
+16.12.20 01:40:41 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:41 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5656 "-" "Grafana/7.0.5" ff300f44-3f71-11eb-a5bf-0242ac110004 295534
+16.12.20 01:40:41 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:40:46 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:40:48 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:40:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:40:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 048ca61c-3f72-11eb-a5c0-0242ac110004 105026
+16.12.20 01:40:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:40:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:40:50 (-0600) <telegraf> 2020-12-16T07:40:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:40:50 (-0600) <telegraf> 2020-12-16T07:40:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:40:50 (-0600) <influxdb> 2020-12-16T07:40:50.467959Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:40:50 (-0600) <influxdb> 2020-12-16T07:40:50.545596Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:40:50 (-0600) <influxdb> 2020-12-16T07:40:50.690260Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:40:50 (-0600) <influxdb> 2020-12-16T07:40:50.741921Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:40:50 (-0600) <influxdb> 2020-12-16T07:40:50.906259Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:40:51 (-0600) <influxdb> 2020-12-16T07:40:51.060479Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:51 (-0600) <influxdb> 2020-12-16T07:40:51.083534Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:40:51 (-0600) <influxdb> 2020-12-16T07:40:51.224100Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:52 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:51 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5209 "-" "Grafana/7.0.5" 052c3aa7-3f72-11eb-a5c6-0242ac110004 1017495
+16.12.20 01:40:52 (-0600) <influxdb> 2020-12-16T07:40:52.394116Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:52 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:51 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5659 "-" "Grafana/7.0.5" 05456a7b-3f72-11eb-a5c8-0242ac110004 1442458
+16.12.20 01:40:52 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:50 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 11280 "-" "Grafana/7.0.5" 04dd0814-3f72-11eb-a5c2-0242ac110004 2296164
+16.12.20 01:40:54 (-0600) <influxdb> 2020-12-16T07:40:54.175578Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:40:53 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:40:54 (-0600) <influxdb> 2020-12-16T07:40:54.471101Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:40:54 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:50 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 10094 "-" "Grafana/7.0.5" 04d028cc-3f72-11eb-a5c1-0242ac110004 4090325
+16.12.20 01:40:54 (-0600) <influxdb> 2020-12-16T07:40:54.736814Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:40:54 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:50 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 11280 "-" "Grafana/7.0.5" 04fa55a6-3f72-11eb-a5c4-0242ac110004 4238507
+16.12.20 01:40:55 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:50 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 11101 "-" "Grafana/7.0.5" 04f2a301-3f72-11eb-a5c3-0242ac110004 4671308
+16.12.20 01:40:55 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:50 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 11493 "-" "Grafana/7.0.5" 0514a504-3f72-11eb-a5c5-0242ac110004 4465982
+16.12.20 01:40:55 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:51 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 11493 "-" "Grafana/7.0.5" 052ff2cb-3f72-11eb-a5c7-0242ac110004 4297644
+16.12.20 01:40:55 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:52 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5209 "-" "Grafana/7.0.5" 05f7ee98-3f72-11eb-a5c9-0242ac110004 3004046
+16.12.20 01:40:55 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:54 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5659 "-" "Grafana/7.0.5" 07063c6b-3f72-11eb-a5ca-0242ac110004 1457422
+16.12.20 01:40:55 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:40:56 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:54 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 11101 "-" "Grafana/7.0.5" 07340e12-3f72-11eb-a5cb-0242ac110004 1634541
+16.12.20 01:40:56 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:40:54 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 10094 "-" "Grafana/7.0.5" 075d807b-3f72-11eb-a5cc-0242ac110004 1476037
+16.12.20 01:41:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:41:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 0a83a7b6-3f72-11eb-a5cd-0242ac110004 78948
+16.12.20 01:41:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:41:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:41:00 (-0600) <telegraf> 2020-12-16T07:41:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:41:00 (-0600) <telegraf> 2020-12-16T07:41:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:41:00 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:41:01 (-0600) <influxdb> 2020-12-16T07:41:01.331602Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:01 (-0600) <influxdb> 2020-12-16T07:41:01.389601Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:01 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:01 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5211 "-" "Grafana/7.0.5" 0b4b4a56-3f72-11eb-a5ce-0242ac110004 298160
+16.12.20 01:41:01 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:01 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5663 "-" "Grafana/7.0.5" 0b549f38-3f72-11eb-a5cf-0242ac110004 320577
+16.12.20 01:41:02 (-0600) <influxdb> 2020-12-16T07:41:02.116492Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:02 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:02 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5663 "-" "Grafana/7.0.5" 0bc1d6d7-3f72-11eb-a5d0-0242ac110004 222336
+16.12.20 01:41:02 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:41:02 (-0600) <influxdb> 2020-12-16T07:41:02.506469Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:02 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:02 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5211 "-" "Grafana/7.0.5" 0bff38d5-3f72-11eb-a5d1-0242ac110004 166216
+16.12.20 01:41:07 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:41:09 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:41:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:41:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:41:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:41:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 107938b9-3f72-11eb-a5d2-0242ac110004 103946
+16.12.20 01:41:10 (-0600) <telegraf> 2020-12-16T07:41:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:41:10 (-0600) <telegraf> 2020-12-16T07:41:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:41:14 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:41:16 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:41:18 (-0600) <influxdb> 2020-12-16T07:41:18.275114Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:18 (-0600) <influxdb> 2020-12-16T07:41:18.352269Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:18 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:18 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5668 "-" "Grafana/7.0.5" 156551cb-3f72-11eb-a5d3-0242ac110004 346415
+16.12.20 01:41:18 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:18 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5214 "-" "Grafana/7.0.5" 1570ece6-3f72-11eb-a5d4-0242ac110004 309770
+16.12.20 01:41:18 (-0600) <influxdb> 2020-12-16T07:41:18.763298Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:18 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:18 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5668 "-" "Grafana/7.0.5" 15ae8120-3f72-11eb-a5d5-0242ac110004 174961
+16.12.20 01:41:19 (-0600) <influxdb> 2020-12-16T07:41:19.012903Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:19 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:19 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5214 "-" "Grafana/7.0.5" 15d483ee-3f72-11eb-a5d6-0242ac110004 162378
+16.12.20 01:41:20 (-0600) <telegraf> 2020-12-16T07:41:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:41:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:41:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:41:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:41:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 166e4759-3f72-11eb-a5d7-0242ac110004 93561
+16.12.20 01:41:20 (-0600) <telegraf> 2020-12-16T07:41:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:41:22 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:41:22 (-0600) <influxdb> 2020-12-16T07:41:22.642654Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:41:22 (-0600) <influxdb> 2020-12-16T07:41:22.775727Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:41:22 (-0600) <influxdb> 2020-12-16T07:41:22.888516Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:41:22 (-0600) <influxdb> 2020-12-16T07:41:22.933660Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:41:22 (-0600) <influxdb> 2020-12-16T07:41:22.961987Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:41:23 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:22 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 11288 "-" "Grafana/7.0.5" 17ff16bc-3f72-11eb-a5d8-0242ac110004 1058712
+16.12.20 01:41:24 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:41:24 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:22 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 11288 "-" "Grafana/7.0.5" 182bc358-3f72-11eb-a5db-0242ac110004 1392185
+16.12.20 01:41:24 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:22 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 11504 "-" "Grafana/7.0.5" 181412c1-3f72-11eb-a5d9-0242ac110004 1696676
+16.12.20 01:41:24 (-0600) <influxdb> 2020-12-16T07:41:24.348865Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:41:24 (-0600) <influxdb> 2020-12-16T07:41:24.377165Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT temperature FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:41:24 (-0600) <influxdb> 2020-12-16T07:41:24.717280Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT pressure FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 12h"}
+16.12.20 01:41:24 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:22 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 11107 "-" "Grafana/7.0.5" 18251598-3f72-11eb-a5da-0242ac110004 1868732
+16.12.20 01:41:24 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:22 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 10100 "-" "Grafana/7.0.5" 182f859a-3f72-11eb-a5dc-0242ac110004 1906694
+16.12.20 01:41:25 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:24 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22temperature%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 11107 "-" "Grafana/7.0.5" 19077960-3f72-11eb-a5de-0242ac110004 1272222
+16.12.20 01:41:25 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:24 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 11504 "-" "Grafana/7.0.5" 1902eb37-3f72-11eb-a5dd-0242ac110004 1415041
+16.12.20 01:41:25 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:24 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22pressure%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+12h HTTP/1.1" 200 10100 "-" "Grafana/7.0.5" 193c09bb-3f72-11eb-a5df-0242ac110004 1086955
+16.12.20 01:41:29 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:41:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:41:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:41:30 (-0600) <telegraf> 2020-12-16T07:41:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:41:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:41:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 1c64ff29-3f72-11eb-a5e0-0242ac110004 25920
+16.12.20 01:41:30 (-0600) <telegraf> 2020-12-16T07:41:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:41:31 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:41:31 (-0600) <influxdb> 2020-12-16T07:41:31.564044Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:31 (-0600) <influxdb> 2020-12-16T07:41:31.612714Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:32 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:31 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5672 "-" "Grafana/7.0.5" 1d4fb898-3f72-11eb-a5e1-0242ac110004 407993
+16.12.20 01:41:32 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:31 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5218 "-" "Grafana/7.0.5" 1d58408e-3f72-11eb-a5e2-0242ac110004 377445
+16.12.20 01:41:32 (-0600) <influxdb> 2020-12-16T07:41:32.305116Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:32 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:32 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5218 "-" "Grafana/7.0.5" 1dc2122f-3f72-11eb-a5e3-0242ac110004 178115
+16.12.20 01:41:32 (-0600) <influxdb> 2020-12-16T07:41:32.527994Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:32 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:32 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5672 "-" "Grafana/7.0.5" 1de4263d-3f72-11eb-a5e4-0242ac110004 180571
+16.12.20 01:41:36 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:41:38 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:41:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:41:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:41:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:41:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 225a70c5-3f72-11eb-a5e5-0242ac110004 20330
+16.12.20 01:41:40 (-0600) <telegraf> 2020-12-16T07:41:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:41:40 (-0600) <telegraf> 2020-12-16T07:41:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:41:41 (-0600) <influxdb> 2020-12-16T07:41:41.287049Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:41 (-0600) <influxdb> 2020-12-16T07:41:41.397307Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:41 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:41 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5222 "-" "Grafana/7.0.5" 231ca69e-3f72-11eb-a5e6-0242ac110004 301994
+16.12.20 01:41:41 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:41 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5674 "-" "Grafana/7.0.5" 232d3a54-3f72-11eb-a5e7-0242ac110004 298011
+16.12.20 01:41:42 (-0600) <influxdb> 2020-12-16T07:41:42.155583Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:42 (-0600) <influxdb> 2020-12-16T07:41:42.197378Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:42 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:42 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5222 "-" "Grafana/7.0.5" 239fd739-3f72-11eb-a5e8-0242ac110004 286733
+16.12.20 01:41:42 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:42 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5674 "-" "Grafana/7.0.5" 23a746e0-3f72-11eb-a5e9-0242ac110004 331205
+16.12.20 01:41:43 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:41:45 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:41:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:41:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:41:50 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:41:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:41:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 284fe9ea-3f72-11eb-a5ea-0242ac110004 82148
+16.12.20 01:41:50 (-0600) <telegraf> 2020-12-16T07:41:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:41:50 (-0600) <telegraf> 2020-12-16T07:41:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:41:51 (-0600) <influxdb> 2020-12-16T07:41:51.411738Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:51 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:51 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5223 "-" "Grafana/7.0.5" 2924d018-3f72-11eb-a5eb-0242ac110004 279697
+16.12.20 01:41:52 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:41:52 (-0600) <influxdb> 2020-12-16T07:41:52.793242Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:52 (-0600) <influxdb> 2020-12-16T07:41:52.810064Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:53 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:52 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5223 "-" "Grafana/7.0.5" 29fa1c9d-3f72-11eb-a5ed-0242ac110004 476040
+16.12.20 01:41:53 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:52 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5676 "-" "Grafana/7.0.5" 29f7f9ab-3f72-11eb-a5ec-0242ac110004 514720
+16.12.20 01:41:54 (-0600) <influxdb> 2020-12-16T07:41:54.135908Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:41:54 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:41:54 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5676 "-" "Grafana/7.0.5" 2ac4ae49-3f72-11eb-a5ee-0242ac110004 282117
+16.12.20 01:41:57 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:41:59 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:42:00 (-0600) <telegraf> 2020-12-16T07:42:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:42:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:42:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:42:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:42:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 2e45d281-3f72-11eb-a5ef-0242ac110004 83688
+16.12.20 01:42:00 (-0600) <telegraf> 2020-12-16T07:42:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:42:01 (-0600) <influxdb> 2020-12-16T07:42:01.352418Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:01 (-0600) <influxdb> 2020-12-16T07:42:01.421805Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:01 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:01 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5225 "-" "Grafana/7.0.5" 2f11daf0-3f72-11eb-a5f0-0242ac110004 332322
+16.12.20 01:42:01 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:01 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5680 "-" "Grafana/7.0.5" 2f1cd269-3f72-11eb-a5f1-0242ac110004 333434
+16.12.20 01:42:01 (-0600) <influxdb> 2020-12-16T07:42:01.985459Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:02 (-0600) <influxdb> 2020-12-16T07:42:02.012624Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:02 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:02 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5680 "-" "Grafana/7.0.5" 2f76e05f-3f72-11eb-a5f3-0242ac110004 298431
+16.12.20 01:42:02 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:01 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5225 "-" "Grafana/7.0.5" 2f717ec5-3f72-11eb-a5f2-0242ac110004 372534
+16.12.20 01:42:04 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:42:06 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:42:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:42:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 343c3d99-3f72-11eb-a5f4-0242ac110004 91710
+16.12.20 01:42:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:42:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:42:10 (-0600) <telegraf> 2020-12-16T07:42:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:42:10 (-0600) <telegraf> 2020-12-16T07:42:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:42:11 (-0600) <influxdb> 2020-12-16T07:42:11.410444Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:11 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:11 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5228 "-" "Grafana/7.0.5" 35102e50-3f72-11eb-a5f5-0242ac110004 160178
+16.12.20 01:42:11 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:42:11 (-0600) <influxdb> 2020-12-16T07:42:11.622114Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:11 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:11 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5682 "-" "Grafana/7.0.5" 3530174c-3f72-11eb-a5f6-0242ac110004 213060
+16.12.20 01:42:11 (-0600) <influxdb> 2020-12-16T07:42:11.884242Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:11 (-0600) <influxdb> 2020-12-16T07:42:11.964635Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:12 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:11 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5228 "-" "Grafana/7.0.5" 355969b6-3f72-11eb-a5f7-0242ac110004 320132
+16.12.20 01:42:12 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:11 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5682 "-" "Grafana/7.0.5" 3565abb1-3f72-11eb-a5f8-0242ac110004 319240
+16.12.20 01:42:13 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:42:18 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:42:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:42:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 3a318f41-3f72-11eb-a5f9-0242ac110004 96162
+16.12.20 01:42:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:42:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:42:20 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:42:20 (-0600) <telegraf> 2020-12-16T07:42:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:42:20 (-0600) <telegraf> 2020-12-16T07:42:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:42:21 (-0600) <influxdb> 2020-12-16T07:42:21.418609Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:21 (-0600) <influxdb> 2020-12-16T07:42:21.572791Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:21 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:21 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5230 "-" "Grafana/7.0.5" 3b076618-3f72-11eb-a5fa-0242ac110004 232835
+16.12.20 01:42:21 (-0600) <influxdb> 2020-12-16T07:42:21.757343Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:21 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:21 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5685 "-" "Grafana/7.0.5" 3b1f3cc5-3f72-11eb-a5fb-0242ac110004 368683
+16.12.20 01:42:22 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:21 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5230 "-" "Grafana/7.0.5" 3b3bab87-3f72-11eb-a5fc-0242ac110004 291219
+16.12.20 01:42:22 (-0600) <influxdb> 2020-12-16T07:42:22.173700Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:22 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:22 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5685 "-" "Grafana/7.0.5" 3b79eb5b-3f72-11eb-a5fd-0242ac110004 180015
+16.12.20 01:42:25 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:42:27 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:42:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:42:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:42:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:42:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 4027ea37-3f72-11eb-a5fe-0242ac110004 72065
+16.12.20 01:42:30 (-0600) <telegraf> 2020-12-16T07:42:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:42:30 (-0600) <telegraf> 2020-12-16T07:42:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:42:31 (-0600) <influxdb> 2020-12-16T07:42:31.311471Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:31 (-0600) <influxdb> 2020-12-16T07:42:31.385658Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:31 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:31 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5232 "-" "Grafana/7.0.5" 40ec8a1b-3f72-11eb-a5ff-0242ac110004 601134
+16.12.20 01:42:32 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:31 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5687 "-" "Grafana/7.0.5" 40f81744-3f72-11eb-a600-0242ac110004 663258
+16.12.20 01:42:32 (-0600) <influxdb> 2020-12-16T07:42:32.360276Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:32 (-0600) <influxdb> 2020-12-16T07:42:32.556754Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:32 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:32 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5232 "-" "Grafana/7.0.5" 418dd1b9-3f72-11eb-a601-0242ac110004 268375
+16.12.20 01:42:32 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:42:32 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:32 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5687 "-" "Grafana/7.0.5" 41aba605-3f72-11eb-a602-0242ac110004 239654
+16.12.20 01:42:34 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:42:39 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:42:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:42:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:42:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:42:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 461dcb58-3f72-11eb-a603-0242ac110004 81468
+16.12.20 01:42:40 (-0600) <telegraf> 2020-12-16T07:42:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:42:40 (-0600) <telegraf> 2020-12-16T07:42:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:42:41 (-0600) <influxdb> 2020-12-16T07:42:41.234893Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:41 (-0600) <influxdb> 2020-12-16T07:42:41.376641Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:41 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:41 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5235 "-" "Grafana/7.0.5" 46d73fb1-3f72-11eb-a604-0242ac110004 257352
+16.12.20 01:42:41 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:41 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5689 "-" "Grafana/7.0.5" 46ecc748-3f72-11eb-a605-0242ac110004 244536
+16.12.20 01:42:41 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:42:41 (-0600) <influxdb> 2020-12-16T07:42:41.685574Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:41 (-0600) <influxdb> 2020-12-16T07:42:41.819663Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:41 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:41 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5235 "-" "Grafana/7.0.5" 471c56de-3f72-11eb-a606-0242ac110004 280150
+16.12.20 01:42:42 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:41 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5689 "-" "Grafana/7.0.5" 473135c9-3f72-11eb-a607-0242ac110004 309112
+16.12.20 01:42:46 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:42:48 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:42:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:42:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:42:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:42:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 4c13142c-3f72-11eb-a608-0242ac110004 84470
+16.12.20 01:42:50 (-0600) <telegraf> 2020-12-16T07:42:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:42:50 (-0600) <telegraf> 2020-12-16T07:42:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:42:51 (-0600) <influxdb> 2020-12-16T07:42:51.379379Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:51 (-0600) <influxdb> 2020-12-16T07:42:51.414615Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:51 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:51 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5691 "-" "Grafana/7.0.5" 4ce4b99f-3f72-11eb-a60a-0242ac110004 592123
+16.12.20 01:42:52 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:51 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5237 "-" "Grafana/7.0.5" 4ce28983-3f72-11eb-a609-0242ac110004 690103
+16.12.20 01:42:52 (-0600) <influxdb> 2020-12-16T07:42:52.145600Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:52 (-0600) <influxdb> 2020-12-16T07:42:52.337310Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:42:52 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:52 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5691 "-" "Grafana/7.0.5" 4d58d643-3f72-11eb-a60b-0242ac110004 571696
+16.12.20 01:42:52 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:42:52 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5237 "-" "Grafana/7.0.5" 4d75cd3b-3f72-11eb-a60c-0242ac110004 500893
+16.12.20 01:42:53 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:42:55 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:43:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:43:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:43:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:43:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 52091220-3f72-11eb-a60d-0242ac110004 31606
+16.12.20 01:43:00 (-0600) <telegraf> 2020-12-16T07:43:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:43:00 (-0600) <telegraf> 2020-12-16T07:43:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:43:00 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:43:01 (-0600) <influxdb> 2020-12-16T07:43:01.945681Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:43:02 (-0600) <influxdb> 2020-12-16T07:43:02.027043Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:43:02 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:43:01 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5238 "-" "Grafana/7.0.5" 532fc8b8-3f72-11eb-a60e-0242ac110004 422467
+16.12.20 01:43:02 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:43:02 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5694 "-" "Grafana/7.0.5" 533c51d4-3f72-11eb-a60f-0242ac110004 407486
+16.12.20 01:43:02 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:43:02 (-0600) <influxdb> 2020-12-16T07:43:02.780405Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:43:02 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:43:02 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5694 "-" "Grafana/7.0.5" 53aedf37-3f72-11eb-a610-0242ac110004 175748
+16.12.20 01:43:03 (-0600) <influxdb> 2020-12-16T07:43:02.991030Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:43:03 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:43:02 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5238 "-" "Grafana/7.0.5" 53cfb756-3f72-11eb-a611-0242ac110004 161325
+16.12.20 01:43:07 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:43:09 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:43:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:43:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:43:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:43:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 57feec93-3f72-11eb-a612-0242ac110004 99215
+16.12.20 01:43:10 (-0600) <telegraf> 2020-12-16T07:43:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:43:10 (-0600) <telegraf> 2020-12-16T07:43:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:43:11 (-0600) <influxdb> 2020-12-16T07:43:11.409818Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:43:11 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:43:11 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5241 "-" "Grafana/7.0.5" 58d3d20d-3f72-11eb-a613-0242ac110004 158920
+16.12.20 01:43:11 (-0600) <influxdb> 2020-12-16T07:43:11.735756Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:43:11 (-0600) <influxdb> 2020-12-16T07:43:11.762722Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT air_quality_score FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:43:12 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:43:11 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5696 "-" "Grafana/7.0.5" 59060b5a-3f72-11eb-a614-0242ac110004 381962
+16.12.20 01:43:12 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:43:11 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22air_quality_score%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5241 "-" "Grafana/7.0.5" 5909b168-3f72-11eb-a615-0242ac110004 408889
+16.12.20 01:43:12 (-0600) <influxdb> 2020-12-16T07:43:12.619968Z	info	Executing query	{"log_id": "0R6GG~bl000", "service": "query", "query": "SELECT humidity FROM \"balena-sense\".autogen.\"balena-sense\" WHERE time >= now() - 6h"}
+16.12.20 01:43:12 (-0600) <influxdb> [httpd] 52.4.252.97, 52.4.252.97,172.17.0.2 - - [16/Dec/2020:07:43:12 +0000] "GET /query?db=balena-sense&epoch=ms&q=SELECT+%22humidity%22+FROM+%22balena-sense%22+WHERE+time+%3E%3D+now%28%29+-+6h HTTP/1.1" 200 5696 "-" "Grafana/7.0.5" 598ae0da-3f72-11eb-a616-0242ac110004 183148
+16.12.20 01:43:14 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:43:16 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:43:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:43:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 5df4e0e2-3f72-11eb-a617-0242ac110004 31974
+16.12.20 01:43:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:43:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:43:20 (-0600) <telegraf> 2020-12-16T07:43:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:43:20 (-0600) <telegraf> 2020-12-16T07:43:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:43:21 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:43:23 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:43:28 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:43:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:43:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 63eab6eb-3f72-11eb-a618-0242ac110004 53108
+16.12.20 01:43:30 (-0600) <telegraf> 2020-12-16T07:43:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:43:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:43:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:43:30 (-0600) <telegraf> 2020-12-16T07:43:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:43:30 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:43:35 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:43:37 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:43:40 (-0600) <telegraf> 2020-12-16T07:43:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:43:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:43:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:43:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:43:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 69e12a60-3f72-11eb-a619-0242ac110004 25510
+16.12.20 01:43:40 (-0600) <telegraf> 2020-12-16T07:43:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:43:42 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:43:44 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:43:49 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:43:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:43:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:43:50 (-0600) <telegraf> 2020-12-16T07:43:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:43:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:43:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 6fd712bb-3f72-11eb-a61a-0242ac110004 77695
+16.12.20 01:43:50 (-0600) <telegraf> 2020-12-16T07:43:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:43:51 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:43:56 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:43:58 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:44:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:44:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:44:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:44:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 75cc620a-3f72-11eb-a61b-0242ac110004 124284
+16.12.20 01:44:00 (-0600) <telegraf> 2020-12-16T07:44:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:44:00 (-0600) <telegraf> 2020-12-16T07:44:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:44:03 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:44:05 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:44:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:44:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 7bc23f61-3f72-11eb-a61c-0242ac110004 143562
+16.12.20 01:44:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:44:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:44:10 (-0600) <telegraf> 2020-12-16T07:44:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:44:10 (-0600) <telegraf> 2020-12-16T07:44:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:44:10 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:44:12 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:44:17 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:44:19 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:44:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:44:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:44:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:44:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 81b896f2-3f72-11eb-a61d-0242ac110004 26637
+16.12.20 01:44:20 (-0600) <telegraf> 2020-12-16T07:44:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:44:20 (-0600) <telegraf> 2020-12-16T07:44:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:44:24 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:44:26 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:44:30 (-0600) <telegraf> 2020-12-16T07:44:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:44:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:44:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:44:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:44:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 87ae7453-3f72-11eb-a61e-0242ac110004 61420
+16.12.20 01:44:30 (-0600) <telegraf> 2020-12-16T07:44:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:44:31 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:44:34 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:44:39 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:44:40 (-0600) <telegraf> 2020-12-16T07:44:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:44:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:44:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:44:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:44:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 8da3e0c6-3f72-11eb-a61f-0242ac110004 101360
+16.12.20 01:44:40 (-0600) <telegraf> 2020-12-16T07:44:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:44:41 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:44:46 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:44:48 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:44:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:44:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:44:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:44:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 9399bd69-3f72-11eb-a620-0242ac110004 61612
+16.12.20 01:44:50 (-0600) <telegraf> 2020-12-16T07:44:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:44:50 (-0600) <telegraf> 2020-12-16T07:44:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:44:53 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:44:55 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:45:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:45:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 998f9cdc-3f72-11eb-a621-0242ac110004 73576
+16.12.20 01:45:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:45:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:45:00 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:45:00 (-0600) <telegraf> 2020-12-16T07:45:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:45:00 (-0600) <telegraf> 2020-12-16T07:45:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:45:02 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:45:07 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:45:09 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:45:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:45:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 9f86854e-3f72-11eb-a622-0242ac110004 62358
+16.12.20 01:45:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:45:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:45:10 (-0600) <telegraf> 2020-12-16T07:45:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:45:10 (-0600) <telegraf> 2020-12-16T07:45:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:45:14 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:45:16 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:45:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:45:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:45:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:45:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" a57b64dc-3f72-11eb-a623-0242ac110004 33640
+16.12.20 01:45:20 (-0600) <telegraf> 2020-12-16T07:45:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:45:20 (-0600) <telegraf> 2020-12-16T07:45:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:45:21 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:45:23 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:45:28 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:45:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:45:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:45:30 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:45:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:45:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" ab714b4d-3f72-11eb-a624-0242ac110004 60420
+16.12.20 01:45:30 (-0600) <telegraf> 2020-12-16T07:45:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:45:30 (-0600) <telegraf> 2020-12-16T07:45:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:45:35 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:45:37 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:45:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:45:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:45:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:45:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" b167ab76-3f72-11eb-a625-0242ac110004 61020
+16.12.20 01:45:40 (-0600) <telegraf> 2020-12-16T07:45:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:45:40 (-0600) <telegraf> 2020-12-16T07:45:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:45:42 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:45:44 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:45:49 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:45:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:45:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" b75d0f6f-3f72-11eb-a626-0242ac110004 93688
+16.12.20 01:45:50 (-0600) <telegraf> 2020-12-16T07:45:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:45:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:45:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:45:50 (-0600) <telegraf> 2020-12-16T07:45:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:45:51 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:45:56 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:45:58 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:46:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:46:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:46:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:46:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" bd53d2bb-3f72-11eb-a627-0242ac110004 20184
+16.12.20 01:46:00 (-0600) <telegraf> 2020-12-16T07:46:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:46:00 (-0600) <telegraf> 2020-12-16T07:46:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:46:03 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:46:05 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:46:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:46:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:46:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:46:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" c348ca09-3f72-11eb-a628-0242ac110004 156615
+16.12.20 01:46:10 (-0600) <telegraf> 2020-12-16T07:46:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:46:10 (-0600) <telegraf> 2020-12-16T07:46:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:46:10 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:46:12 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:46:17 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:46:19 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:46:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:46:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:46:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:46:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" c93f15d8-3f72-11eb-a629-0242ac110004 122040
+16.12.20 01:46:20 (-0600) <telegraf> 2020-12-16T07:46:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:46:20 (-0600) <telegraf> 2020-12-16T07:46:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:46:24 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:46:26 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:46:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:46:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" cf3458cf-3f72-11eb-a62a-0242ac110004 77944
+16.12.20 01:46:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:46:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:46:30 (-0600) <telegraf> 2020-12-16T07:46:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:46:30 (-0600) <telegraf> 2020-12-16T07:46:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:46:31 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:46:33 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:46:38 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:46:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:46:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" d52b2acb-3f72-11eb-a62b-0242ac110004 77811
+16.12.20 01:46:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:46:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:46:40 (-0600) <telegraf> 2020-12-16T07:46:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:46:40 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:46:40 (-0600) <telegraf> 2020-12-16T07:46:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:46:45 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:46:47 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:46:50 (-0600) <telegraf> 2020-12-16T07:46:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:46:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:46:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:46:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:46:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" db20bd4a-3f72-11eb-a62c-0242ac110004 85870
+16.12.20 01:46:50 (-0600) <telegraf> 2020-12-16T07:46:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:46:52 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:46:54 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:47:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:47:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" e116a16d-3f72-11eb-a62d-0242ac110004 71606
+16.12.20 01:46:59 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:47:00 (-0600) <telegraf> 2020-12-16T07:47:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:47:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:47:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:47:00 (-0600) <telegraf> 2020-12-16T07:47:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:47:01 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:47:06 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:47:08 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:47:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:47:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" e70c0b6b-3f72-11eb-a62e-0242ac110004 115226
+16.12.20 01:47:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:47:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:47:10 (-0600) <telegraf> 2020-12-16T07:47:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:47:10 (-0600) <telegraf> 2020-12-16T07:47:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:47:13 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:47:15 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:47:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:47:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:47:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:47:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" ed01ea52-3f72-11eb-a62f-0242ac110004 75376
+16.12.20 01:47:20 (-0600) <telegraf> 2020-12-16T07:47:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:47:20 (-0600) <telegraf> 2020-12-16T07:47:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:47:20 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:47:22 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:47:27 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:47:29 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:47:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:47:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:47:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:47:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" f2f84818-3f72-11eb-a630-0242ac110004 95441
+16.12.20 01:47:30 (-0600) <telegraf> 2020-12-16T07:47:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:47:30 (-0600) <telegraf> 2020-12-16T07:47:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:47:34 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:47:36 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:47:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:47:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:47:40 (-0600) <telegraf> 2020-12-16T07:47:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:47:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:47:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" f8ee60b1-3f72-11eb-a631-0242ac110004 113472
+16.12.20 01:47:40 (-0600) <telegraf> 2020-12-16T07:47:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:47:41 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:47:43 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:47:48 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:47:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:47:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:47:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:47:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" fee342fb-3f72-11eb-a632-0242ac110004 81867
+16.12.20 01:47:50 (-0600) <telegraf> 2020-12-16T07:47:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:47:50 (-0600) <telegraf> 2020-12-16T07:47:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:47:51 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:47:56 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:47:58 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:48:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:48:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:48:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:48:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 04d91c42-3f73-11eb-a633-0242ac110004 88700
+16.12.20 01:48:00 (-0600) <telegraf> 2020-12-16T07:48:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:48:00 (-0600) <telegraf> 2020-12-16T07:48:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:48:03 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:48:05 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:48:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:48:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 0acfe9de-3f73-11eb-a634-0242ac110004 69725
+16.12.20 01:48:10 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:48:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:48:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:48:10 (-0600) <telegraf> 2020-12-16T07:48:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:48:10 (-0600) <telegraf> 2020-12-16T07:48:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:48:12 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:48:17 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:48:19 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:48:20 (-0600) <telegraf> 2020-12-16T07:48:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:48:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:48:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:48:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:48:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 10c5b78b-3f73-11eb-a635-0242ac110004 88062
+16.12.20 01:48:20 (-0600) <telegraf> 2020-12-16T07:48:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:48:24 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:48:26 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:48:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:48:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 16bb10da-3f73-11eb-a636-0242ac110004 64216
+16.12.20 01:48:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:48:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:48:30 (-0600) <telegraf> 2020-12-16T07:48:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:48:30 (-0600) <telegraf> 2020-12-16T07:48:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:48:31 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:48:33 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:48:38 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:48:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:48:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:48:40 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:48:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:48:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 1cb16fc3-3f73-11eb-a637-0242ac110004 83708
+16.12.20 01:48:40 (-0600) <telegraf> 2020-12-16T07:48:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:48:40 (-0600) <telegraf> 2020-12-16T07:48:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:48:45 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:48:47 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:48:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:48:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 22a6db00-3f73-11eb-a638-0242ac110004 112537
+16.12.20 01:48:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:48:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:48:50 (-0600) <telegraf> 2020-12-16T07:48:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:48:50 (-0600) <telegraf> 2020-12-16T07:48:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:48:52 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:48:54 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:48:59 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:49:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:49:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:49:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:49:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 289d230f-3f73-11eb-a639-0242ac110004 27470
+16.12.20 01:49:00 (-0600) <telegraf> 2020-12-16T07:49:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:49:00 (-0600) <telegraf> 2020-12-16T07:49:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:49:01 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:49:06 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:49:08 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:49:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:49:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:49:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:49:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 2e93431e-3f73-11eb-a63a-0242ac110004 22362
+16.12.20 01:49:10 (-0600) <telegraf> 2020-12-16T07:49:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:49:10 (-0600) <telegraf> 2020-12-16T07:49:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:49:13 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:49:15 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:49:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:49:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:49:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:49:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 34886f09-3f73-11eb-a63b-0242ac110004 61801
+16.12.20 01:49:20 (-0600) <telegraf> 2020-12-16T07:49:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:49:20 (-0600) <telegraf> 2020-12-16T07:49:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:49:20 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:49:22 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:49:27 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:49:29 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:49:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:49:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:49:30 (-0600) <telegraf> 2020-12-16T07:49:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:49:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:49:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 3a7e048a-3f73-11eb-a63c-0242ac110004 103636
+16.12.20 01:49:30 (-0600) <telegraf> 2020-12-16T07:49:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:49:34 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:49:36 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:49:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:49:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:49:40 (-0600) <telegraf> 2020-12-16T07:49:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:49:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:49:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 407437e5-3f73-11eb-a63d-0242ac110004 80135
+16.12.20 01:49:40 (-0600) <telegraf> 2020-12-16T07:49:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:49:41 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:49:43 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:49:48 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:49:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:49:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 466e31ec-3f73-11eb-a63e-0242ac110004 184206
+16.12.20 01:49:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:49:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:49:50 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:49:50 (-0600) <telegraf> 2020-12-16T07:49:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:49:50 (-0600) <telegraf> 2020-12-16T07:49:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:49:55 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:49:57 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:50:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:50:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 4c63fd91-3f73-11eb-a63f-0242ac110004 14018
+16.12.20 01:50:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:50:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:50:00 (-0600) <telegraf> 2020-12-16T07:50:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:50:00 (-0600) <telegraf> 2020-12-16T07:50:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:50:02 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:50:04 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:50:09 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:50:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:50:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:50:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:50:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 52564b3c-3f73-11eb-a640-0242ac110004 127222
+16.12.20 01:50:10 (-0600) <telegraf> 2020-12-16T07:50:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:50:10 (-0600) <telegraf> 2020-12-16T07:50:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:50:11 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:50:16 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:50:18 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:50:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:50:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:50:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:50:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 584bc6af-3f73-11eb-a641-0242ac110004 78451
+16.12.20 01:50:20 (-0600) <telegraf> 2020-12-16T07:50:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:50:20 (-0600) <telegraf> 2020-12-16T07:50:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:50:23 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:50:25 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:50:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:50:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:50:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:50:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 5e4225e8-3f73-11eb-a642-0242ac110004 84438
+16.12.20 01:50:30 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:50:30 (-0600) <telegraf> 2020-12-16T07:50:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:50:30 (-0600) <telegraf> 2020-12-16T07:50:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:50:32 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:50:37 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:50:39 (-0600) <influxdb> 2020-12-16T07:50:39.413735Z	info	Retention policy deletion check (start)	{"log_id": "0R6GG~bl000", "service": "retention", "trace_id": "0R6dJvDG000", "op_name": "retention_delete_check", "op_event": "start"}
+16.12.20 01:50:39 (-0600) <influxdb> 2020-12-16T07:50:39.422289Z	info	Retention policy deletion check (end)	{"log_id": "0R6GG~bl000", "service": "retention", "trace_id": "0R6dJvDG000", "op_name": "retention_delete_check", "op_event": "end", "op_elapsed": "8.857ms"}
+16.12.20 01:50:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:50:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 64378397-3f73-11eb-a643-0242ac110004 105763
+16.12.20 01:50:39 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:50:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:50:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:50:40 (-0600) <telegraf> 2020-12-16T07:50:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:50:40 (-0600) <telegraf> 2020-12-16T07:50:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:50:44 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:50:46 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:50:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:50:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 6a2dddc6-3f73-11eb-a644-0242ac110004 26611
+16.12.20 01:50:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:50:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:50:50 (-0600) <telegraf> 2020-12-16T07:50:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:50:50 (-0600) <telegraf> 2020-12-16T07:50:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:50:51 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:50:53 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:50:58 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:51:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:51:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:51:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:51:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 7023b163-3f73-11eb-a645-0242ac110004 26510
+16.12.20 01:51:00 (-0600) <telegraf> 2020-12-16T07:51:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:51:00 (-0600) <telegraf> 2020-12-16T07:51:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:51:00 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:51:05 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:51:08 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:51:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:51:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:51:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:51:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 76192f24-3f73-11eb-a646-0242ac110004 68587
+16.12.20 01:51:10 (-0600) <telegraf> 2020-12-16T07:51:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:51:10 (-0600) <telegraf> 2020-12-16T07:51:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:51:13 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:51:15 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:51:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:51:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 7c0f11c1-3f73-11eb-a647-0242ac110004 66963
+16.12.20 01:51:20 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:51:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:51:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:51:20 (-0600) <telegraf> 2020-12-16T07:51:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:51:20 (-0600) <telegraf> 2020-12-16T07:51:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:51:22 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:51:27 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:51:29 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:51:30 (-0600) <telegraf> 2020-12-16T07:51:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:51:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:51:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:51:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:51:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 8205235c-3f73-11eb-a648-0242ac110004 57670
+16.12.20 01:51:30 (-0600) <telegraf> 2020-12-16T07:51:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:51:34 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:51:36 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:51:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:51:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 87fb40e0-3f73-11eb-a649-0242ac110004 59846
+16.12.20 01:51:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:51:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:51:40 (-0600) <telegraf> 2020-12-16T07:51:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:51:40 (-0600) <telegraf> 2020-12-16T07:51:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:51:41 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:51:43 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:51:48 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:51:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:51:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 8df145fb-3f73-11eb-a64a-0242ac110004 27304
+16.12.20 01:51:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:51:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:51:50 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:51:50 (-0600) <telegraf> 2020-12-16T07:51:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:51:50 (-0600) <telegraf> 2020-12-16T07:51:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:51:55 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:51:57 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:52:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:52:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:52:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:52:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 93e722bc-3f73-11eb-a64b-0242ac110004 57976
+16.12.20 01:52:00 (-0600) <telegraf> 2020-12-16T07:52:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:52:00 (-0600) <telegraf> 2020-12-16T07:52:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:52:02 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:52:04 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:52:09 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:52:10 (-0600) <telegraf> 2020-12-16T07:52:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:52:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:52:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:52:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:52:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 99dc75d6-3f73-11eb-a64c-0242ac110004 74290
+16.12.20 01:52:10 (-0600) <telegraf> 2020-12-16T07:52:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:52:11 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:52:16 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:52:18 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:52:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:52:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:52:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:52:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" 9fd2df18-3f73-11eb-a64d-0242ac110004 26210
+16.12.20 01:52:20 (-0600) <telegraf> 2020-12-16T07:52:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:52:20 (-0600) <telegraf> 2020-12-16T07:52:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:52:23 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:52:25 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:52:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:52:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:52:30 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:52:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:52:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" a5c8a6a3-3f73-11eb-a64e-0242ac110004 92813
+16.12.20 01:52:30 (-0600) <telegraf> 2020-12-16T07:52:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:52:30 (-0600) <telegraf> 2020-12-16T07:52:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:52:32 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:52:37 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:52:39 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:52:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:52:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:52:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:52:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" abbe13ad-3f73-11eb-a64f-0242ac110004 51571
+16.12.20 01:52:40 (-0600) <telegraf> 2020-12-16T07:52:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:52:40 (-0600) <telegraf> 2020-12-16T07:52:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:52:44 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:52:46 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:52:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:52:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" b1b3f000-3f73-11eb-a650-0242ac110004 74971
+16.12.20 01:52:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:52:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:52:50 (-0600) <telegraf> 2020-12-16T07:52:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:52:50 (-0600) <telegraf> 2020-12-16T07:52:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:52:51 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:52:53 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:52:58 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:53:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:53:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" b7a99ac1-3f73-11eb-a651-0242ac110004 81582
+16.12.20 01:53:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:53:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:53:00 (-0600) <telegraf> 2020-12-16T07:53:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:53:00 (-0600) <telegraf> 2020-12-16T07:53:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:53:00 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:53:05 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:53:07 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:53:10 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:53:10 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" bda07da7-3f73-11eb-a652-0242ac110004 93557
+16.12.20 01:53:10 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:53:10] "GET / HTTP/1.1" 200 -
+16.12.20 01:53:10 (-0600) <telegraf> 2020-12-16T07:53:10Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:53:10 (-0600) <telegraf> 2020-12-16T07:53:10Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:53:12 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:53:14 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:53:19 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:53:20 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:53:20] "GET / HTTP/1.1" 200 -
+16.12.20 01:53:20 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:53:20 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" c395247d-3f73-11eb-a653-0242ac110004 202927
+16.12.20 01:53:20 (-0600) <telegraf> 2020-12-16T07:53:20Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:53:20 (-0600) <telegraf> 2020-12-16T07:53:20Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:53:21 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:53:26 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:53:28 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:53:30 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:53:30 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" c98bfe8f-3f73-11eb-a654-0242ac110004 26023
+16.12.20 01:53:30 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:53:30] "GET / HTTP/1.1" 200 -
+16.12.20 01:53:30 (-0600) <telegraf> 2020-12-16T07:53:30Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:53:30 (-0600) <telegraf> 2020-12-16T07:53:30Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:53:33 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:53:35 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:53:40 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:53:40] "GET / HTTP/1.1" 200 -
+16.12.20 01:53:40 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:53:40 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" cf81dba0-3f73-11eb-a655-0242ac110004 111323
+16.12.20 01:53:40 (-0600) <telegraf> 2020-12-16T07:53:40Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:53:40 (-0600) <telegraf> 2020-12-16T07:53:40Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:53:40 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:53:42 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:53:47 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:53:49 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:53:50 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:53:50] "GET / HTTP/1.1" 200 -
+16.12.20 01:53:50 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:53:50 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" d57731f7-3f73-11eb-a656-0242ac110004 136421
+16.12.20 01:53:50 (-0600) <telegraf> 2020-12-16T07:53:50Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:53:50 (-0600) <telegraf> 2020-12-16T07:53:50Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:53:54 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:53:56 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:54:00 (-0600) <sensor> 172.17.0.3 - - [16/Dec/2020 07:54:00] "GET / HTTP/1.1" 200 -
+16.12.20 01:54:00 (-0600) <influxdb> [httpd] 172.17.0.3 - - [16/Dec/2020:07:54:00 +0000] "POST /write?db=balena-sense HTTP/1.1" 204 0 "-" "Telegraf/1.12.2" db6d5f30-3f73-11eb-a657-0242ac110004 80071
+16.12.20 01:54:00 (-0600) <telegraf> 2020-12-16T07:54:00Z E! [outputs.influxdb_v2] when writing to [https://us-west-2-1.aws.cloud2.influxdata.com]: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:54:00 (-0600) <telegraf> 2020-12-16T07:54:00Z E! [agent] Error writing to outputs.influxdb_v2: failed to write metric: unauthorized: unauthorized access
+16.12.20 01:54:01 (-0600) <sensor> user_i2c_write: Remote I/O error
+16.12.20 01:54:03 (-0600) <sensor> Capture thread exited; restarting
+16.12.20 01:54:08 (-0600) <sensor> user_i2c_write: Remote I/O error
